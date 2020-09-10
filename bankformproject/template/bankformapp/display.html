@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BANK FORM</title>
+</head>
+<body>
+	<center>
+		<h1>ACCOUNT REGISTERATON FORM</h1>
+		<form method="post">
+			{{form.as_p}}
+			{% csrf_token %}
+		<input type="submit" name="Register">
+		</form>
+	</center>
+
+</body>
+</html>

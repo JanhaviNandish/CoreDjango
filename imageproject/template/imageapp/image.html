@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DISPLAY</title>
+</head>
+<body>
+	{% for disney in disneypic %}
+	<div>
+		{{disney.Name}}
+	</div>
+	<div>
+		<img src="{{disney.image.url}}">
+	</div>	
+	{% endfor %}
+</body>
+</html>
